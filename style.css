@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Porsche Next", Arial;
     transition: all 0.3s 0s;
+    user-select: none;
 }
 
 html, body {
