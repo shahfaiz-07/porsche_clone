@@ -328,6 +328,7 @@ header {
     background-size: cover;
     background-position: center;
     position: relative;
+    overflow: hidden;
 }
 
 .socialitems:nth-child(1) {
@@ -351,23 +352,18 @@ header {
 
 .socialitems:nth-child(5) {
     grid-area: s5;
-    background-position: bottom;
-    background-image: url(images/social7.jpg);
 }
 
 .socialitems:nth-child(6) {
     grid-area: s6;
-    background-image: url(images/social6.jpg);
 }
 
 .socialitems:nth-child(7) {
     grid-area: s7;
-    background-image: url(images/social5.jpg);
 }
 
 .socialitems:nth-child(8) {
     grid-area: s8;
-    background-image: url(images/social8.jpg);
 }
 
 .socialitems:nth-child(9) {
@@ -399,8 +395,8 @@ header {
 
 .smallvideodiv video {
     position: absolute;
-    width: 11.32625rem;
-    height: 11.1665625rem;
+    width: 11.07625rem;
+    height: 10.9167875rem;
     object-fit: cover;
 }
 
